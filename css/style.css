@@ -320,7 +320,7 @@ transform: translateY(100%);
 transition: transform 750ms cubic-bezier(0.4, 0, 0.2, 1);
 letter-spacing: 0.02em;
 line-height: 1.5;
-overflow: auto;
+overflow-y: scroll;
 }
 .benefits-item:hover .benefits-overlay{
 transform: translateY(0);
@@ -420,7 +420,7 @@ border-top-right-radius: 30px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     z-index: 0;
-    overflow: auto;
+    overflow-y: visible;
 }
 
 .events-item:hover{
@@ -497,6 +497,7 @@ z-index: 3;
     letter-spacing: 0.02em;
     line-height: 1.5;
     z-index: 1;
+    overflow-y: visible;
 }
 .about-us-item:hover{
 box-shadow: -20px 15px 3px rgba(0, 0, 0, 0.3),
