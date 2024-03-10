@@ -227,6 +227,11 @@ margin-left: auto;
 margin-right: auto;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .reserv-number{
+font-family: "Roboto", sans-serif;
+color: #FFF;
+text-decoration: none;
+    }
          .reserv-button:hover{
                     background: #FCF1E0;
                     color: #FD9222;
