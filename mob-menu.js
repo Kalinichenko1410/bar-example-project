@@ -19,3 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// butn reserv
+document.addEventListener('DOMContentLoaded', function() {
+    const reservationButton = document.getElementById('reserv-button');
+    const phoneNumber = '+111111111111'; 
+
+    reservationButton.addEventListener('click', function() {
+        window.location.href = 'tel:' + phoneNumber;
+    });
+});
