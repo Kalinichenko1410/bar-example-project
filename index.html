@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>BestBar</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="./mob-menu.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -29,13 +30,13 @@
           >
           <ul class="nav-list">
             <li>
-              <a class="nav-item current" href="./index.html">Events</a>
-            </li>
-            <li>
-              <a class="nav-item" href="#portfolio">Range</a>
+              <a class="nav-item current" href="#events">Events</a>
             </li>
             <li>
               <a class="nav-item" href="#about-us">About us</a>
+            </li>
+            <li>
+              <a class="nav-item" href="#our-menu">Our Menu</a>
             </li>
             <li>
               <a class="nav-item" href="#contacts">Contacts</a>
@@ -229,7 +230,7 @@
         </div>
       </section>
       <!-- Our Event -->
-      <section class="events-section">
+      <section id="events" class="events-section">
         <div class="container events-container">
           <h2 class="events-header">Our Events</h2>
           <div class="events-item">
@@ -260,7 +261,7 @@
         </div>
       </section>
       <!-- About Us -->
-      <section class="about-us-section">
+      <section id="about-us" class="about-us-section">
         <div class="container about-us-container">
           <h2 class="about-us-header">About Us</h2>
           <div class="about-us-item">
@@ -291,7 +292,7 @@
         </div>
       </section>
       <!-- Menu -->
-      <section class="menu-section">
+      <section id="our-menu" class="menu-section">
         <div class="container menu-container">
           <h2 class="menu-header">Menu</h2>
           <div class="full-menu">
@@ -416,7 +417,7 @@
           <address class="address-footer">
             <ul class="footer-contacts-list">
               <li>
-                <a class="footer-contacts" href="mailto:balagan@pocta.com"
+                <a class="footer-contacts" href="bestbar@pocta.com"
                   >bestbar@pocta.com</a
                 >
               </li>
@@ -432,23 +433,27 @@
     </footer>
     <!-- Mobile Menu -->
     <div class="mob-menu-container">
-      <button class="mob-close" type="button">
+      <button class="mob-menu-button" type="button">
         <svg class="icon-close-mob-menu" width="15" height="15">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
       <ul class="mobile-menu-list">
         <li class="mobile-menu-item">
-          <a href="#" class="mobile-menu-link">Events</a>
+          <a href="#events" class="mobile-menu-link">Events</a>
+        </li>
+            </li>
+
+
+
+        <li class="mobile-menu-item">
+          <a href="#about-us" class="mobile-menu-link">About us</a>
         </li>
         <li class="mobile-menu-item">
-          <a href="#" class="mobile-menu-link">Range</a>
+          <a href="#our-menu" class="mobile-menu-link">Our Menu</a>
         </li>
         <li class="mobile-menu-item">
-          <a href="#" class="mobile-menu-link">About us</a>
-        </li>
-        <li class="mobile-menu-item">
-          <a href="#" class="mobile-menu-link">Contacts</a>
+          <a href="#contacts" class="mobile-menu-link">Contacts</a>
         </li>
       </ul>
       <ul class="mobile-menu-contacts">
